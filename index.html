@@ -7,10 +7,14 @@
         <p>bla bla bla</p>
         <p>1234</p>
 
-        <button id="cool-button">
+        <button id="cool-button">Press!</button>
 
             <script type="text/javascript">
-            alert("Marcel are mere");
+            var button = document.getElementById("cool-button");
+
+            button.addEventListener("click", function()){
+                alert("You pressed!");
+            }
             </script>
         </body>
         </html>
